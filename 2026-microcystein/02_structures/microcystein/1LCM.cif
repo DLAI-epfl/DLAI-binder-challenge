@@ -1,0 +1,1067 @@
+data_1LCM
+# 
+_entry.id   1LCM 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    5.381 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+_database_2.pdbx_database_accession 
+_database_2.pdbx_DOI 
+PDB   1LCM         pdb_00001lcm 10.2210/pdb1lcm/pdb 
+WWPDB D_1000174659 ?            ?                   
+# 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.entry_id                        1LCM 
+_pdbx_database_status.recvd_initial_deposition_date   1995-12-30 
+_pdbx_database_status.deposit_site                    ? 
+_pdbx_database_status.process_site                    BNL 
+_pdbx_database_status.status_code_sf                  ? 
+_pdbx_database_status.status_code_mr                  REL 
+_pdbx_database_status.SG_entry                        ? 
+_pdbx_database_status.status_code_cs                  ? 
+_pdbx_database_status.pdb_format_compatible           Y 
+_pdbx_database_status.status_code_nmr_data            ? 
+_pdbx_database_status.methods_development_category    ? 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Trogen, G.' 1 
+'Zdunek, J.' 2 
+# 
+loop_
+_citation.id 
+_citation.title 
+_citation.journal_abbrev 
+_citation.journal_volume 
+_citation.page_first 
+_citation.page_last 
+_citation.year 
+_citation.journal_id_ASTM 
+_citation.country 
+_citation.journal_id_ISSN 
+_citation.journal_id_CSD 
+_citation.book_publisher 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_DOI 
+primary 'Conformational studies of microcystin-LR using NMR spectroscopy and molecular dynamics calculations.' Biochemistry     35 
+3197 3205 1996 BICHAW US 0006-2960 0033 ? 8605154 10.1021/bi952368s 
+1       'Comparison of the Solution Structures of Microcystin-Lr and Motuporin'                                Nat.Struct.Biol. 2 
+114  ?    1995 NSBIEW US 1072-8368 2024 ? ?       ?                 
+2       'Three-Dimensional Structure of the Catalytic Subunit of Protein Serine/Threonine Phosphatase-1'       Nature           
+376 745  ?    1995 NATUAS UK 0028-0836 0006 ? ?       ?                 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+_citation_author.identifier_ORCID 
+primary 'Trogen, G.B.'     1  ? 
+primary 'Annila, A.'       2  ? 
+primary 'Eriksson, J.'     3  ? 
+primary 'Kontteli, M.'     4  ? 
+primary 'Meriluoto, J.'    5  ? 
+primary 'Sethson, I.'      6  ? 
+primary 'Zdunek, J.'       7  ? 
+primary 'Edlund, U.'       8  ? 
+1       'Bagu, J.R.'       9  ? 
+1       'Sonnichsen, F.D.' 10 ? 
+1       'Williams, D.'     11 ? 
+1       'Andersen, R.J.'   12 ? 
+1       'Sykes, B.D.'      13 ? 
+1       'Holmes, C.F.'     14 ? 
+2       'Goldberg, J.'     15 ? 
+2       'Huang, H.B.'      16 ? 
+2       'Kwon, Y.G.'       17 ? 
+2       'Greengard, P.'    18 ? 
+2       'Nairn, A.C.'      19 ? 
+2       'Kuriyan, J.'      20 ? 
+# 
+_cell.entry_id           1LCM 
+_cell.length_a           1.000 
+_cell.length_b           1.000 
+_cell.length_c           1.000 
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        90.00 
+_cell.Z_PDB              1 
+_cell.pdbx_unique_axis   ? 
+# 
+_symmetry.entry_id                         1LCM 
+_symmetry.space_group_name_H-M             'P 1' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                1 
+# 
+_entity.id                         1 
+_entity.type                       polymer 
+_entity.src_method                 nat 
+_entity.pdbx_description           'microcystin LR' 
+_entity.formula_weight             1014.195 
+_entity.pdbx_number_of_molecules   1 
+_entity.pdbx_ec                    ? 
+_entity.pdbx_mutation              ? 
+_entity.pdbx_fragment              ? 
+_entity.details                    ? 
+# 
+_entity_name_com.entity_id   1 
+_entity_name_com.name        MICROCYSTIN-LR 
+# 
+_entity_poly.entity_id                      1 
+_entity_poly.type                           'polypeptide(L)' 
+_entity_poly.nstd_linkage                   no 
+_entity_poly.nstd_monomer                   yes 
+_entity_poly.pdbx_seq_one_letter_code       '(DAL)L(ACB)R(1ZN)(FGA)(DAM)' 
+_entity_poly.pdbx_seq_one_letter_code_can   ALDRXEX 
+_entity_poly.pdbx_strand_id                 A 
+_entity_poly.pdbx_target_identifier         ? 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1 DAL n 
+1 2 LEU n 
+1 3 ACB n 
+1 4 ARG n 
+1 5 1ZN n 
+1 6 FGA n 
+1 7 DAM n 
+# 
+_entity_src_nat.entity_id                  1 
+_entity_src_nat.pdbx_src_id                1 
+_entity_src_nat.pdbx_alt_source_flag       sample 
+_entity_src_nat.pdbx_beg_seq_num           ? 
+_entity_src_nat.pdbx_end_seq_num           ? 
+_entity_src_nat.common_name                ? 
+_entity_src_nat.pdbx_organism_scientific   'Microcystis aeruginosa' 
+_entity_src_nat.pdbx_ncbi_taxonomy_id      1126 
+_entity_src_nat.genus                      Microcystis 
+_entity_src_nat.species                    ? 
+_entity_src_nat.strain                     'FROM A NATURAL BLOOM IN LAKE AKERSVATN, NORWAY' 
+_entity_src_nat.tissue                     ? 
+_entity_src_nat.tissue_fraction            ? 
+_entity_src_nat.pdbx_secretion             ? 
+_entity_src_nat.pdbx_fragment              ? 
+_entity_src_nat.pdbx_variant               ? 
+_entity_src_nat.pdbx_cell_line             ? 
+_entity_src_nat.pdbx_atcc                  ? 
+_entity_src_nat.pdbx_cellular_location     ? 
+_entity_src_nat.pdbx_organ                 ? 
+_entity_src_nat.pdbx_organelle             ? 
+_entity_src_nat.pdbx_cell                  ? 
+_entity_src_nat.pdbx_plasmid_name          ? 
+_entity_src_nat.pdbx_plasmid_details       ? 
+_entity_src_nat.details                    ? 
+# 
+_struct_ref.id                         1 
+_struct_ref.db_name                    NOR 
+_struct_ref.db_code                    NOR00109 
+_struct_ref.pdbx_db_accession          NOR00109 
+_struct_ref.entity_id                  1 
+_struct_ref.pdbx_seq_one_letter_code   '(DAL)L(ACB)R(1ZN)(FGA)(DAM)' 
+_struct_ref.pdbx_align_begin           1 
+_struct_ref.pdbx_db_isoform            ? 
+# 
+_struct_ref_seq.align_id                      1 
+_struct_ref_seq.ref_id                        1 
+_struct_ref_seq.pdbx_PDB_id_code              1LCM 
+_struct_ref_seq.pdbx_strand_id                A 
+_struct_ref_seq.seq_align_beg                 1 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code   ? 
+_struct_ref_seq.seq_align_end                 7 
+_struct_ref_seq.pdbx_seq_align_end_ins_code   ? 
+_struct_ref_seq.pdbx_db_accession             NOR00109 
+_struct_ref_seq.db_align_beg                  1 
+_struct_ref_seq.pdbx_db_align_beg_ins_code    ? 
+_struct_ref_seq.db_align_end                  7 
+_struct_ref_seq.pdbx_db_align_end_ins_code    ? 
+_struct_ref_seq.pdbx_auth_seq_align_beg       1 
+_struct_ref_seq.pdbx_auth_seq_align_end       7 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+1ZN peptide-like                       . '(2S,3S,4E,6E,8S,9S)-3-amino-9-methoxy-2,6,8-trimethyl-10-phenyldeca-4,6-dienoic acid' ? 
+'C20 H29 N O3'   331.449 
+ACB 'D-beta-peptide, C-gamma linking'  . '3-METHYL-BETA-D-ASPARTIC ACID'                                                        
+'(3S)-3-methyl-D-aspartic acid; D-METHYL ASPARTIC ACID' 'C5 H9 N O4'     147.129 
+ARG 'L-peptide linking'                y ARGININE                                                                               ? 
+'C6 H15 N4 O2 1' 175.209 
+DAL 'D-peptide linking'                . D-ALANINE                                                                              ? 
+'C3 H7 N O2'     89.093  
+DAM 'peptide linking'                  . N-METHYL-ALPHA-BETA-DEHYDROALANINE                                                     ? 
+'C4 H7 N O2'     101.104 
+FGA 'D-gamma-peptide, C-delta linking' . 'GAMMA-D-GLUTAMIC ACID'                                                                
+'D-GLUTAMIC ACID'                                       'C5 H9 N O4'     147.129 
+LEU 'L-peptide linking'                y LEUCINE                                                                                ? 
+'C6 H13 N O2'    131.173 
+# 
+_pdbx_nmr_ensemble.entry_id                                      1LCM 
+_pdbx_nmr_ensemble.conformers_calculated_total_number            ? 
+_pdbx_nmr_ensemble.conformers_submitted_total_number             1 
+_pdbx_nmr_ensemble.conformer_selection_criteria                  'MINIMIZED AVERAGE' 
+_pdbx_nmr_ensemble.average_constraints_per_residue               ? 
+_pdbx_nmr_ensemble.average_constraint_violations_per_residue     ? 
+_pdbx_nmr_ensemble.maximum_distance_constraint_violation         ? 
+_pdbx_nmr_ensemble.average_distance_constraint_violation         ? 
+_pdbx_nmr_ensemble.maximum_upper_distance_constraint_violation   ? 
+_pdbx_nmr_ensemble.maximum_lower_distance_constraint_violation   ? 
+_pdbx_nmr_ensemble.distance_constraint_violation_method          ? 
+_pdbx_nmr_ensemble.maximum_torsion_angle_constraint_violation    ? 
+_pdbx_nmr_ensemble.average_torsion_angle_constraint_violation    ? 
+_pdbx_nmr_ensemble.torsion_angle_constraint_violation_method     ? 
+# 
+_pdbx_nmr_software.classification   refinement 
+_pdbx_nmr_software.name             X-PLOR 
+_pdbx_nmr_software.version          3.0 
+_pdbx_nmr_software.authors          BRUNGER 
+_pdbx_nmr_software.ordinal          1 
+# 
+_exptl.entry_id          1LCM 
+_exptl.method            'SOLUTION NMR' 
+_exptl.crystals_number   ? 
+# 
+_struct.entry_id                  1LCM 
+_struct.title                     'NMR minimized average structure of microcystin-LR' 
+_struct.pdbx_model_details        ? 
+_struct.pdbx_CASP_flag            ? 
+_struct.pdbx_model_type_details   ? 
+# 
+_struct_keywords.entry_id        1LCM 
+_struct_keywords.pdbx_keywords   'TOXIN, HYDROLASE INHIBITOR' 
+_struct_keywords.text            'TOXIN, HYDROLASE INHIBITOR' 
+# 
+_struct_asym.id                            A 
+_struct_asym.pdbx_blank_PDB_chainid_flag   Y 
+_struct_asym.pdbx_modified                 N 
+_struct_asym.entity_id                     1 
+_struct_asym.details                       ? 
+# 
+_struct_biol.id        1 
+_struct_biol.details   ? 
+# 
+loop_
+_struct_conn.id 
+_struct_conn.conn_type_id 
+_struct_conn.pdbx_leaving_atom_flag 
+_struct_conn.pdbx_PDB_id 
+_struct_conn.ptnr1_label_asym_id 
+_struct_conn.ptnr1_label_comp_id 
+_struct_conn.ptnr1_label_seq_id 
+_struct_conn.ptnr1_label_atom_id 
+_struct_conn.pdbx_ptnr1_label_alt_id 
+_struct_conn.pdbx_ptnr1_PDB_ins_code 
+_struct_conn.pdbx_ptnr1_standard_comp_id 
+_struct_conn.ptnr1_symmetry 
+_struct_conn.ptnr2_label_asym_id 
+_struct_conn.ptnr2_label_comp_id 
+_struct_conn.ptnr2_label_seq_id 
+_struct_conn.ptnr2_label_atom_id 
+_struct_conn.pdbx_ptnr2_label_alt_id 
+_struct_conn.pdbx_ptnr2_PDB_ins_code 
+_struct_conn.ptnr1_auth_asym_id 
+_struct_conn.ptnr1_auth_comp_id 
+_struct_conn.ptnr1_auth_seq_id 
+_struct_conn.ptnr2_auth_asym_id 
+_struct_conn.ptnr2_auth_comp_id 
+_struct_conn.ptnr2_auth_seq_id 
+_struct_conn.ptnr2_symmetry 
+_struct_conn.pdbx_ptnr3_label_atom_id 
+_struct_conn.pdbx_ptnr3_label_seq_id 
+_struct_conn.pdbx_ptnr3_label_comp_id 
+_struct_conn.pdbx_ptnr3_label_asym_id 
+_struct_conn.pdbx_ptnr3_label_alt_id 
+_struct_conn.pdbx_ptnr3_PDB_ins_code 
+_struct_conn.details 
+_struct_conn.pdbx_dist_value 
+_struct_conn.pdbx_value_order 
+_struct_conn.pdbx_role 
+covale1 covale both ? A DAL 1 C  ? ? ? 1_555 A LEU 2 N ? ? A DAL 1 A LEU 2 1_555 ? ? ? ? ? ? ? 1.309 ? ? 
+covale2 covale both ? A DAL 1 N  ? ? ? 1_555 A DAM 7 C ? ? A DAL 1 A DAM 7 1_555 ? ? ? ? ? ? ? 1.304 ? ? 
+covale3 covale both ? A LEU 2 C  ? ? ? 1_555 A ACB 3 N ? ? A LEU 2 A ACB 3 1_555 ? ? ? ? ? ? ? 1.299 ? ? 
+covale4 covale both ? A ACB 3 CG ? ? ? 1_555 A ARG 4 N ? ? A ACB 3 A ARG 4 1_555 ? ? ? ? ? ? ? 1.304 ? ? 
+covale5 covale both ? A ARG 4 C  ? ? ? 1_555 A 1ZN 5 N ? ? A ARG 4 A 1ZN 5 1_555 ? ? ? ? ? ? ? 1.303 ? ? 
+covale6 covale both ? A 1ZN 5 C  ? ? ? 1_555 A FGA 6 N ? ? A 1ZN 5 A FGA 6 1_555 ? ? ? ? ? ? ? 1.298 ? ? 
+covale7 covale both ? A FGA 6 CD ? ? ? 1_555 A DAM 7 N ? ? A FGA 6 A DAM 7 1_555 ? ? ? ? ? ? ? 1.306 ? ? 
+# 
+_struct_conn_type.id          covale 
+_struct_conn_type.criteria    ? 
+_struct_conn_type.reference   ? 
+# 
+_struct_site.id                   AC1 
+_struct_site.pdbx_evidence_code   Software 
+_struct_site.pdbx_auth_asym_id    A 
+_struct_site.pdbx_auth_comp_id    DAL 
+_struct_site.pdbx_auth_seq_id     1 
+_struct_site.pdbx_auth_ins_code   ? 
+_struct_site.pdbx_num_residues    3 
+_struct_site.details              'BINDING SITE FOR RESIDUE DAL A 1' 
+# 
+loop_
+_struct_site_gen.id 
+_struct_site_gen.site_id 
+_struct_site_gen.pdbx_num_res 
+_struct_site_gen.label_comp_id 
+_struct_site_gen.label_asym_id 
+_struct_site_gen.label_seq_id 
+_struct_site_gen.pdbx_auth_ins_code 
+_struct_site_gen.auth_comp_id 
+_struct_site_gen.auth_asym_id 
+_struct_site_gen.auth_seq_id 
+_struct_site_gen.label_atom_id 
+_struct_site_gen.label_alt_id 
+_struct_site_gen.symmetry 
+_struct_site_gen.details 
+1 AC1 3 LEU A 2 ? LEU A 2 . ? 1_555 ? 
+2 AC1 3 FGA A 6 ? FGA A 6 . ? 1_555 ? 
+3 AC1 3 DAM A 7 ? DAM A 7 . ? 1_555 ? 
+# 
+_database_PDB_matrix.entry_id          1LCM 
+_database_PDB_matrix.origx[1][1]       1.000000 
+_database_PDB_matrix.origx[1][2]       0.000000 
+_database_PDB_matrix.origx[1][3]       0.000000 
+_database_PDB_matrix.origx[2][1]       0.000000 
+_database_PDB_matrix.origx[2][2]       1.000000 
+_database_PDB_matrix.origx[2][3]       0.000000 
+_database_PDB_matrix.origx[3][1]       0.000000 
+_database_PDB_matrix.origx[3][2]       0.000000 
+_database_PDB_matrix.origx[3][3]       1.000000 
+_database_PDB_matrix.origx_vector[1]   0.00000 
+_database_PDB_matrix.origx_vector[2]   0.00000 
+_database_PDB_matrix.origx_vector[3]   0.00000 
+# 
+_atom_sites.entry_id                    1LCM 
+_atom_sites.fract_transf_matrix[1][1]   1.000000 
+_atom_sites.fract_transf_matrix[1][2]   0.000000 
+_atom_sites.fract_transf_matrix[1][3]   0.000000 
+_atom_sites.fract_transf_matrix[2][1]   0.000000 
+_atom_sites.fract_transf_matrix[2][2]   1.000000 
+_atom_sites.fract_transf_matrix[2][3]   0.000000 
+_atom_sites.fract_transf_matrix[3][1]   0.000000 
+_atom_sites.fract_transf_matrix[3][2]   0.000000 
+_atom_sites.fract_transf_matrix[3][3]   1.000000 
+_atom_sites.fract_transf_vector[1]      0.00000 
+_atom_sites.fract_transf_vector[2]      0.00000 
+_atom_sites.fract_transf_vector[3]      0.00000 
+# 
+loop_
+_atom_type.symbol 
+C 
+H 
+N 
+O 
+# 
+loop_
+_atom_site.group_PDB 
+_atom_site.id 
+_atom_site.type_symbol 
+_atom_site.label_atom_id 
+_atom_site.label_alt_id 
+_atom_site.label_comp_id 
+_atom_site.label_asym_id 
+_atom_site.label_entity_id 
+_atom_site.label_seq_id 
+_atom_site.pdbx_PDB_ins_code 
+_atom_site.Cartn_x 
+_atom_site.Cartn_y 
+_atom_site.Cartn_z 
+_atom_site.occupancy 
+_atom_site.B_iso_or_equiv 
+_atom_site.pdbx_formal_charge 
+_atom_site.auth_seq_id 
+_atom_site.auth_comp_id 
+_atom_site.auth_asym_id 
+_atom_site.auth_atom_id 
+_atom_site.pdbx_PDB_model_num 
+HETATM 1   N N    . DAL A 1 1 ? 7.766  4.772   3.973  1.00 0.00 ? 1 DAL A N    1 
+HETATM 2   C CA   . DAL A 1 1 ? 8.998  4.482   3.189  1.00 0.00 ? 1 DAL A CA   1 
+HETATM 3   C CB   . DAL A 1 1 ? 8.728  4.715   1.698  1.00 0.00 ? 1 DAL A CB   1 
+HETATM 4   C C    . DAL A 1 1 ? 9.423  3.028   3.421  1.00 0.00 ? 1 DAL A C    1 
+HETATM 5   O O    . DAL A 1 1 ? 10.566 2.670   3.221  1.00 0.00 ? 1 DAL A O    1 
+HETATM 6   H H1   . DAL A 1 1 ? 6.929  4.980   3.507  1.00 0.00 ? 1 DAL A H1   1 
+HETATM 7   H HA   . DAL A 1 1 ? 9.790  5.140   3.515  1.00 0.00 ? 1 DAL A HA   1 
+HETATM 8   H HB1  . DAL A 1 1 ? 9.666  4.749   1.162  1.00 0.00 ? 1 DAL A HB1  1 
+HETATM 9   H HB2  . DAL A 1 1 ? 8.207  5.653   1.567  1.00 0.00 ? 1 DAL A HB2  1 
+HETATM 10  H HB3  . DAL A 1 1 ? 8.122  3.910   1.310  1.00 0.00 ? 1 DAL A HB3  1 
+ATOM   11  N N    . LEU A 1 2 ? 8.507  2.178   3.812  1.00 0.00 ? 2 LEU A N    1 
+ATOM   12  C CA   . LEU A 1 2 ? 8.867  0.742   4.017  1.00 0.00 ? 2 LEU A CA   1 
+ATOM   13  C C    . LEU A 1 2 ? 8.122  -0.099  2.994  1.00 0.00 ? 2 LEU A C    1 
+ATOM   14  O O    . LEU A 1 2 ? 8.691  -0.919  2.300  1.00 0.00 ? 2 LEU A O    1 
+ATOM   15  C CB   . LEU A 1 2 ? 8.451  0.284   5.417  1.00 0.00 ? 2 LEU A CB   1 
+ATOM   16  C CG   . LEU A 1 2 ? 8.777  1.382   6.417  1.00 0.00 ? 2 LEU A CG   1 
+ATOM   17  C CD1  . LEU A 1 2 ? 7.960  1.169   7.710  1.00 0.00 ? 2 LEU A CD1  1 
+ATOM   18  C CD2  . LEU A 1 2 ? 10.272 1.335   6.747  1.00 0.00 ? 2 LEU A CD2  1 
+ATOM   19  H H    . LEU A 1 2 ? 7.580  2.477   3.944  1.00 0.00 ? 2 LEU A H    1 
+ATOM   20  H HA   . LEU A 1 2 ? 9.932  0.618   3.898  1.00 0.00 ? 2 LEU A HA   1 
+ATOM   21  H HB2  . LEU A 1 2 ? 7.389  0.086   5.429  1.00 0.00 ? 2 LEU A HB2  1 
+ATOM   22  H HB3  . LEU A 1 2 ? 8.989  -0.615  5.679  1.00 0.00 ? 2 LEU A HB3  1 
+ATOM   23  H HG   . LEU A 1 2 ? 8.536  2.337   5.966  1.00 0.00 ? 2 LEU A HG   1 
+ATOM   24  H HD11 . LEU A 1 2 ? 7.025  0.680   7.475  1.00 0.00 ? 2 LEU A HD11 1 
+ATOM   25  H HD12 . LEU A 1 2 ? 8.522  0.550   8.398  1.00 0.00 ? 2 LEU A HD12 1 
+ATOM   26  H HD13 . LEU A 1 2 ? 7.756  2.123   8.175  1.00 0.00 ? 2 LEU A HD13 1 
+ATOM   27  H HD21 . LEU A 1 2 ? 10.809 0.895   5.920  1.00 0.00 ? 2 LEU A HD21 1 
+ATOM   28  H HD22 . LEU A 1 2 ? 10.634 2.338   6.919  1.00 0.00 ? 2 LEU A HD22 1 
+ATOM   29  H HD23 . LEU A 1 2 ? 10.427 0.739   7.634  1.00 0.00 ? 2 LEU A HD23 1 
+HETATM 30  C C    . ACB A 1 3 ? 4.956  -1.568  2.938  1.00 0.00 ? 3 ACB A C    1 
+HETATM 31  O O    . ACB A 1 3 ? 4.618  -1.069  3.999  1.00 0.00 ? 3 ACB A O    1 
+HETATM 32  O OXT  . ACB A 1 3 ? 4.556  -2.647  2.535  1.00 0.00 ? 3 ACB A OXT  1 
+HETATM 33  C CA   . ACB A 1 3 ? 6.001  -0.828  2.098  1.00 0.00 ? 3 ACB A CA   1 
+HETATM 34  N N    . ACB A 1 3 ? 6.830  0.032   2.978  1.00 0.00 ? 3 ACB A N    1 
+HETATM 35  C CB   . ACB A 1 3 ? 5.312  0.049   1.056  1.00 0.00 ? 3 ACB A CB   1 
+HETATM 36  C CG   . ACB A 1 3 ? 4.093  0.745   1.661  1.00 0.00 ? 3 ACB A CG   1 
+HETATM 37  C C4   . ACB A 1 3 ? 6.292  1.094   0.548  1.00 0.00 ? 3 ACB A C4   1 
+HETATM 38  O OD2  . ACB A 1 3 ? 4.221  1.729   2.362  1.00 0.00 ? 3 ACB A OD2  1 
+HETATM 39  H HA   . ACB A 1 3 ? 6.633  -1.546  1.597  1.00 0.00 ? 3 ACB A HA   1 
+HETATM 40  H H    . ACB A 1 3 ? 6.399  0.650   3.605  1.00 0.00 ? 3 ACB A H    1 
+HETATM 41  H HB3  . ACB A 1 3 ? 5.003  -0.559  0.238  1.00 0.00 ? 3 ACB A HB3  1 
+HETATM 42  H H41  . ACB A 1 3 ? 6.369  1.013   -0.527 1.00 0.00 ? 3 ACB A H41  1 
+HETATM 43  H H42  . ACB A 1 3 ? 7.259  0.923   0.994  1.00 0.00 ? 3 ACB A H42  1 
+HETATM 44  H H43  . ACB A 1 3 ? 5.936  2.076   0.813  1.00 0.00 ? 3 ACB A H43  1 
+ATOM   45  N N    . ARG A 1 4 ? 2.932  0.422   1.164  1.00 0.00 ? 4 ARG A N    1 
+ATOM   46  C CA   . ARG A 1 4 ? 1.736  1.264   1.449  1.00 0.00 ? 4 ARG A CA   1 
+ATOM   47  C C    . ARG A 1 4 ? 0.869  0.581   2.509  1.00 0.00 ? 4 ARG A C    1 
+ATOM   48  O O    . ARG A 1 4 ? -0.250 0.985   2.757  1.00 0.00 ? 4 ARG A O    1 
+ATOM   49  C CB   . ARG A 1 4 ? 0.917  1.451   0.160  1.00 0.00 ? 4 ARG A CB   1 
+ATOM   50  C CG   . ARG A 1 4 ? 0.526  0.081   -0.402 1.00 0.00 ? 4 ARG A CG   1 
+ATOM   51  C CD   . ARG A 1 4 ? 1.611  -0.401  -1.377 1.00 0.00 ? 4 ARG A CD   1 
+ATOM   52  N NE   . ARG A 1 4 ? 0.995  -0.705  -2.700 1.00 0.00 ? 4 ARG A NE   1 
+ATOM   53  C CZ   . ARG A 1 4 ? 1.751  -0.860  -3.756 1.00 0.00 ? 4 ARG A CZ   1 
+ATOM   54  N NH1  . ARG A 1 4 ? 3.049  -0.755  -3.656 1.00 0.00 ? 4 ARG A NH1  1 
+ATOM   55  N NH2  . ARG A 1 4 ? 1.207  -1.123  -4.913 1.00 0.00 ? 4 ARG A NH2  1 
+ATOM   56  H H    . ARG A 1 4 ? 2.852  -0.367  0.590  1.00 0.00 ? 4 ARG A H    1 
+ATOM   57  H HA   . ARG A 1 4 ? 2.058  2.227   1.820  1.00 0.00 ? 4 ARG A HA   1 
+ATOM   58  H HB2  . ARG A 1 4 ? 0.022  2.017   0.377  1.00 0.00 ? 4 ARG A HB2  1 
+ATOM   59  H HB3  . ARG A 1 4 ? 1.508  1.981   -0.573 1.00 0.00 ? 4 ARG A HB3  1 
+ATOM   60  H HG2  . ARG A 1 4 ? 0.423  -0.625  0.411  1.00 0.00 ? 4 ARG A HG2  1 
+ATOM   61  H HG3  . ARG A 1 4 ? -0.418 0.163   -0.925 1.00 0.00 ? 4 ARG A HG3  1 
+ATOM   62  H HD2  . ARG A 1 4 ? 2.359  0.371   -1.500 1.00 0.00 ? 4 ARG A HD2  1 
+ATOM   63  H HD3  . ARG A 1 4 ? 2.082  -1.293  -0.984 1.00 0.00 ? 4 ARG A HD3  1 
+ATOM   64  H HE   . ARG A 1 4 ? 0.022  -0.788  -2.779 1.00 0.00 ? 4 ARG A HE   1 
+ATOM   65  H HH11 . ARG A 1 4 ? 3.469  -0.556  -2.771 1.00 0.00 ? 4 ARG A HH11 1 
+ATOM   66  H HH12 . ARG A 1 4 ? 3.623  -0.874  -4.466 1.00 0.00 ? 4 ARG A HH12 1 
+ATOM   67  H HH21 . ARG A 1 4 ? 0.214  -1.207  -4.992 1.00 0.00 ? 4 ARG A HH21 1 
+ATOM   68  H HH22 . ARG A 1 4 ? 1.784  -1.242  -5.721 1.00 0.00 ? 4 ARG A HH22 1 
+HETATM 69  C C1   . 1ZN A 1 5 ? -4.708 -4.926  -0.869 1.00 0.00 ? 5 1ZN A C1   1 
+HETATM 70  O O1   . 1ZN A 1 5 ? -4.322 -6.215  -0.404 1.00 0.00 ? 5 1ZN A O1   1 
+HETATM 71  C C2   . 1ZN A 1 5 ? -3.492 -6.252  0.754  1.00 0.00 ? 5 1ZN A C2   1 
+HETATM 72  C C3   . 1ZN A 1 5 ? -3.392 -7.684  1.274  1.00 0.00 ? 5 1ZN A C3   1 
+HETATM 73  C C4   . 1ZN A 1 5 ? -4.634 -8.454  0.897  1.00 0.00 ? 5 1ZN A C4   1 
+HETATM 74  C C5   . 1ZN A 1 5 ? -5.695 -8.565  1.806  1.00 0.00 ? 5 1ZN A C5   1 
+HETATM 75  C C6   . 1ZN A 1 5 ? -6.846 -9.283  1.456  1.00 0.00 ? 5 1ZN A C6   1 
+HETATM 76  C C7   . 1ZN A 1 5 ? -6.936 -9.891  0.196  1.00 0.00 ? 5 1ZN A C7   1 
+HETATM 77  C C8   . 1ZN A 1 5 ? -5.875 -9.781  -0.712 1.00 0.00 ? 5 1ZN A C8   1 
+HETATM 78  C C9   . 1ZN A 1 5 ? -4.724 -9.062  -0.362 1.00 0.00 ? 5 1ZN A C9   1 
+HETATM 79  C C10  . 1ZN A 1 5 ? -2.096 -5.750  0.407  1.00 0.00 ? 5 1ZN A C10  1 
+HETATM 80  C C11  . 1ZN A 1 5 ? -1.969 -5.612  -1.111 1.00 0.00 ? 5 1ZN A C11  1 
+HETATM 81  C C12  . 1ZN A 1 5 ? -1.898 -4.401  1.030  1.00 0.00 ? 5 1ZN A C12  1 
+HETATM 82  C C13  . 1ZN A 1 5 ? -1.186 -4.275  2.162  1.00 0.00 ? 5 1ZN A C13  1 
+HETATM 83  C C14  . 1ZN A 1 5 ? -0.262 -5.370  2.572  1.00 0.00 ? 5 1ZN A C14  1 
+HETATM 84  C C15  . 1ZN A 1 5 ? -1.015 -3.038  2.717  1.00 0.00 ? 5 1ZN A C15  1 
+HETATM 85  C C16  . 1ZN A 1 5 ? 0.173  -2.710  3.233  1.00 0.00 ? 5 1ZN A C16  1 
+HETATM 86  C CA   . 1ZN A 1 5 ? 0.431  -1.361  3.863  1.00 0.00 ? 5 1ZN A CA   1 
+HETATM 87  N N    . 1ZN A 1 5 ? 1.298  -0.548  2.997  1.00 0.00 ? 5 1ZN A N    1 
+HETATM 88  C C18  . 1ZN A 1 5 ? 1.110  -1.550  5.200  1.00 0.00 ? 5 1ZN A C18  1 
+HETATM 89  C C19  . 1ZN A 1 5 ? 0.338  -2.575  6.005  1.00 0.00 ? 5 1ZN A C19  1 
+HETATM 90  C C    . 1ZN A 1 5 ? 1.160  -0.220  5.940  1.00 0.00 ? 5 1ZN A C    1 
+HETATM 91  O O    . 1ZN A 1 5 ? 0.142  0.370   6.244  1.00 0.00 ? 5 1ZN A O    1 
+HETATM 92  H H2   . 1ZN A 1 5 ? 2.134  -0.927  2.690  1.00 0.00 ? 5 1ZN A H2   1 
+HETATM 93  H H1   . 1ZN A 1 5 ? -4.152 -4.683  -1.762 1.00 0.00 ? 5 1ZN A H1   1 
+HETATM 94  H H29  . 1ZN A 1 5 ? -5.765 -4.925  -1.093 1.00 0.00 ? 5 1ZN A H29  1 
+HETATM 95  H H3   . 1ZN A 1 5 ? -4.502 -4.189  -0.107 1.00 0.00 ? 5 1ZN A H3   1 
+HETATM 96  H H4   . 1ZN A 1 5 ? -3.908 -5.622  1.520  1.00 0.00 ? 5 1ZN A H4   1 
+HETATM 97  H H5   . 1ZN A 1 5 ? -2.527 -8.160  0.836  1.00 0.00 ? 5 1ZN A H5   1 
+HETATM 98  H H6   . 1ZN A 1 5 ? -3.288 -7.668  2.348  1.00 0.00 ? 5 1ZN A H6   1 
+HETATM 99  H H7   . 1ZN A 1 5 ? -5.625 -8.096  2.777  1.00 0.00 ? 5 1ZN A H7   1 
+HETATM 100 H H8   . 1ZN A 1 5 ? -7.663 -9.369  2.156  1.00 0.00 ? 5 1ZN A H8   1 
+HETATM 101 H H9   . 1ZN A 1 5 ? -7.823 -10.445 -0.073 1.00 0.00 ? 5 1ZN A H9   1 
+HETATM 102 H H10  . 1ZN A 1 5 ? -5.944 -10.250 -1.682 1.00 0.00 ? 5 1ZN A H10  1 
+HETATM 103 H H11  . 1ZN A 1 5 ? -3.907 -8.977  -1.063 1.00 0.00 ? 5 1ZN A H11  1 
+HETATM 104 H H12  . 1ZN A 1 5 ? -1.353 -6.450  0.787  1.00 0.00 ? 5 1ZN A H12  1 
+HETATM 105 H H13  . 1ZN A 1 5 ? -2.688 -6.257  -1.595 1.00 0.00 ? 5 1ZN A H13  1 
+HETATM 106 H H14  . 1ZN A 1 5 ? -0.973 -5.885  -1.418 1.00 0.00 ? 5 1ZN A H14  1 
+HETATM 107 H H15  . 1ZN A 1 5 ? -2.164 -4.585  -1.393 1.00 0.00 ? 5 1ZN A H15  1 
+HETATM 108 H H16  . 1ZN A 1 5 ? -2.488 -3.559  0.670  1.00 0.00 ? 5 1ZN A H16  1 
+HETATM 109 H H17  . 1ZN A 1 5 ? 0.565  -5.412  1.881  1.00 0.00 ? 5 1ZN A H17  1 
+HETATM 110 H H18  . 1ZN A 1 5 ? -0.793 -6.306  2.565  1.00 0.00 ? 5 1ZN A H18  1 
+HETATM 111 H H19  . 1ZN A 1 5 ? 0.107  -5.166  3.566  1.00 0.00 ? 5 1ZN A H19  1 
+HETATM 112 H H20  . 1ZN A 1 5 ? -1.755 -2.248  2.545  1.00 0.00 ? 5 1ZN A H20  1 
+HETATM 113 H H21  . 1ZN A 1 5 ? 1.030  -3.371  3.044  1.00 0.00 ? 5 1ZN A H21  1 
+HETATM 114 H HA   . 1ZN A 1 5 ? -0.503 -0.865  4.009  1.00 0.00 ? 5 1ZN A HA   1 
+HETATM 115 H H25  . 1ZN A 1 5 ? 2.109  -1.896  5.039  1.00 0.00 ? 5 1ZN A H25  1 
+HETATM 116 H H26  . 1ZN A 1 5 ? -0.566 -2.832  5.474  1.00 0.00 ? 5 1ZN A H26  1 
+HETATM 117 H H27  . 1ZN A 1 5 ? 0.947  -3.456  6.131  1.00 0.00 ? 5 1ZN A H27  1 
+HETATM 118 H H28  . 1ZN A 1 5 ? 0.091  -2.159  6.967  1.00 0.00 ? 5 1ZN A H28  1 
+HETATM 119 N N    . FGA A 1 6 ? 2.311  0.381   5.938  1.00 0.00 ? 6 FGA A N    1 
+HETATM 120 C CA   . FGA A 1 6 ? 2.485  1.685   6.619  1.00 0.00 ? 6 FGA A CA   1 
+HETATM 121 C C    . FGA A 1 6 ? 2.420  1.488   8.134  1.00 0.00 ? 6 FGA A C    1 
+HETATM 122 O O    . FGA A 1 6 ? 2.959  0.500   8.606  1.00 0.00 ? 6 FGA A O    1 
+HETATM 123 C CB   . FGA A 1 6 ? 3.848  2.240   6.229  1.00 0.00 ? 6 FGA A CB   1 
+HETATM 124 C CG   . FGA A 1 6 ? 3.917  3.727   6.582  1.00 0.00 ? 6 FGA A CG   1 
+HETATM 125 C CD   . FGA A 1 6 ? 5.374  4.192   6.552  1.00 0.00 ? 6 FGA A CD   1 
+HETATM 126 O OE1  . FGA A 1 6 ? 6.290  3.403   6.671  1.00 0.00 ? 6 FGA A OE1  1 
+HETATM 127 H H    . FGA A 1 6 ? 3.074  -0.029  5.477  1.00 0.00 ? 6 FGA A H    1 
+HETATM 128 H HA   . FGA A 1 6 ? 1.713  2.370   6.304  1.00 0.00 ? 6 FGA A HA   1 
+HETATM 129 H HB2  . FGA A 1 6 ? 4.616  1.696   6.756  1.00 0.00 ? 6 FGA A HB2  1 
+HETATM 130 H HB3  . FGA A 1 6 ? 3.990  2.115   5.166  1.00 0.00 ? 6 FGA A HB3  1 
+HETATM 131 H HG2  . FGA A 1 6 ? 3.345  4.291   5.861  1.00 0.00 ? 6 FGA A HG2  1 
+HETATM 132 H HG3  . FGA A 1 6 ? 3.508  3.890   7.569  1.00 0.00 ? 6 FGA A HG3  1 
+HETATM 133 N N    . DAM A 1 7 ? 5.596  5.471   6.409  1.00 0.00 ? 7 DAM A N    1 
+HETATM 134 C CM   . DAM A 1 7 ? 4.497  6.449   6.643  1.00 0.00 ? 7 DAM A CM   1 
+HETATM 135 C CA   . DAM A 1 7 ? 6.920  5.943   5.919  1.00 0.00 ? 7 DAM A CA   1 
+HETATM 136 C CB   . DAM A 1 7 ? 7.276  7.236   6.069  1.00 0.00 ? 7 DAM A CB   1 
+HETATM 137 C C    . DAM A 1 7 ? 7.858  4.979   5.257  1.00 0.00 ? 7 DAM A C    1 
+HETATM 138 O O    . DAM A 1 7 ? 8.721  4.434   5.916  1.00 0.00 ? 7 DAM A O    1 
+HETATM 139 H HM1  . DAM A 1 7 ? 3.640  6.174   6.046  1.00 0.00 ? 7 DAM A HM1  1 
+HETATM 140 H HM2  . DAM A 1 7 ? 4.830  7.437   6.364  1.00 0.00 ? 7 DAM A HM2  1 
+HETATM 141 H HM3  . DAM A 1 7 ? 4.225  6.439   7.687  1.00 0.00 ? 7 DAM A HM3  1 
+HETATM 142 H HB1  . DAM A 1 7 ? 8.176  7.495   6.646  1.00 0.00 ? 7 DAM A HB1  1 
+HETATM 143 H HB2  . DAM A 1 7 ? 6.666  8.031   5.615  1.00 0.00 ? 7 DAM A HB2  1 
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1 DAL 1 1 1 DAL DAL A . n 
+A 1 2 LEU 2 2 2 LEU LEU A . n 
+A 1 3 ACB 3 3 3 ACB ACB A . n 
+A 1 4 ARG 4 4 4 ARG ARG A . n 
+A 1 5 1ZN 5 5 5 1ZN 1ZN A . n 
+A 1 6 FGA 6 6 6 FGA FGA A . n 
+A 1 7 DAM 7 7 7 DAM DAM A . n 
+# 
+_pdbx_molecule_features.prd_id    PRD_000212 
+_pdbx_molecule_features.name      'Microcystin LR' 
+_pdbx_molecule_features.type      Oligopeptide 
+_pdbx_molecule_features.class     Toxin 
+_pdbx_molecule_features.details   ? 
+# 
+_pdbx_molecule.instance_id   1 
+_pdbx_molecule.prd_id        PRD_000212 
+_pdbx_molecule.asym_id       A 
+# 
+_pdbx_struct_assembly.id                   1 
+_pdbx_struct_assembly.details              author_defined_assembly 
+_pdbx_struct_assembly.method_details       ? 
+_pdbx_struct_assembly.oligomeric_details   monomeric 
+_pdbx_struct_assembly.oligomeric_count     1 
+# 
+_pdbx_struct_assembly_gen.assembly_id       1 
+_pdbx_struct_assembly_gen.oper_expression   1 
+_pdbx_struct_assembly_gen.asym_id_list      A 
+# 
+_pdbx_struct_oper_list.id                   1 
+_pdbx_struct_oper_list.type                 'identity operation' 
+_pdbx_struct_oper_list.name                 1_555 
+_pdbx_struct_oper_list.symmetry_operation   x,y,z 
+_pdbx_struct_oper_list.matrix[1][1]         1.0000000000 
+_pdbx_struct_oper_list.matrix[1][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[1][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[1]            0.0000000000 
+_pdbx_struct_oper_list.matrix[2][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[2][2]         1.0000000000 
+_pdbx_struct_oper_list.matrix[2][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[2]            0.0000000000 
+_pdbx_struct_oper_list.matrix[3][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
+_pdbx_struct_oper_list.vector[3]            0.0000000000 
+# 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 1996-12-07 
+2 'Structure model' 1 1 2008-03-24 
+3 'Structure model' 1 2 2011-07-13 
+4 'Structure model' 1 3 2012-12-12 
+5 'Structure model' 1 4 2013-02-06 
+6 'Structure model' 2 0 2023-11-15 
+# 
+_pdbx_audit_revision_details.ordinal             1 
+_pdbx_audit_revision_details.revision_ordinal    1 
+_pdbx_audit_revision_details.data_content_type   'Structure model' 
+_pdbx_audit_revision_details.provider            repository 
+_pdbx_audit_revision_details.type                'Initial release' 
+_pdbx_audit_revision_details.description         ? 
+_pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1  2 'Structure model' 'Version format compliance' 
+2  3 'Structure model' 'Database references'       
+3  3 'Structure model' 'Derived calculations'      
+4  3 'Structure model' 'Non-polymer description'   
+5  3 'Structure model' 'Version format compliance' 
+6  4 'Structure model' Other                       
+7  5 'Structure model' 'Derived calculations'      
+8  6 'Structure model' Advisory                    
+9  6 'Structure model' 'Atomic model'              
+10 6 'Structure model' 'Data collection'           
+11 6 'Structure model' 'Database references'       
+12 6 'Structure model' 'Derived calculations'      
+13 6 'Structure model' Other                       
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1  6 'Structure model' atom_site                      
+2  6 'Structure model' chem_comp_atom                 
+3  6 'Structure model' chem_comp_bond                 
+4  6 'Structure model' database_2                     
+5  6 'Structure model' pdbx_database_status           
+6  6 'Structure model' pdbx_validate_main_chain_plane 
+7  6 'Structure model' pdbx_validate_peptide_omega    
+8  6 'Structure model' pdbx_validate_polymer_linkage  
+9  6 'Structure model' struct_conn                    
+10 6 'Structure model' struct_site                    
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  6 'Structure model' '_atom_site.Cartn_x'                  
+2  6 'Structure model' '_atom_site.Cartn_y'                  
+3  6 'Structure model' '_atom_site.Cartn_z'                  
+4  6 'Structure model' '_atom_site.auth_atom_id'             
+5  6 'Structure model' '_atom_site.label_atom_id'            
+6  6 'Structure model' '_database_2.pdbx_DOI'                
+7  6 'Structure model' '_database_2.pdbx_database_accession' 
+8  6 'Structure model' '_pdbx_database_status.process_site'  
+9  6 'Structure model' '_struct_conn.pdbx_dist_value'        
+10 6 'Structure model' '_struct_conn.pdbx_leaving_atom_flag' 
+11 6 'Structure model' '_struct_conn.ptnr1_auth_comp_id'     
+12 6 'Structure model' '_struct_conn.ptnr1_auth_seq_id'      
+13 6 'Structure model' '_struct_conn.ptnr1_label_atom_id'    
+14 6 'Structure model' '_struct_conn.ptnr1_label_comp_id'    
+15 6 'Structure model' '_struct_conn.ptnr1_label_seq_id'     
+16 6 'Structure model' '_struct_conn.ptnr2_auth_comp_id'     
+17 6 'Structure model' '_struct_conn.ptnr2_auth_seq_id'      
+18 6 'Structure model' '_struct_conn.ptnr2_label_atom_id'    
+19 6 'Structure model' '_struct_conn.ptnr2_label_comp_id'    
+20 6 'Structure model' '_struct_conn.ptnr2_label_seq_id'     
+21 6 'Structure model' '_struct_site.pdbx_auth_asym_id'      
+22 6 'Structure model' '_struct_site.pdbx_auth_comp_id'      
+23 6 'Structure model' '_struct_site.pdbx_auth_seq_id'       
+# 
+loop_
+_software.name 
+_software.classification 
+_software.version 
+_software.citation_id 
+_software.pdbx_ordinal 
+X-PLOR 'model building' 3.0 ? 1 
+X-PLOR refinement       3.0 ? 2 
+X-PLOR phasing          3.0 ? 3 
+# 
+_pdbx_validate_close_contact.id               1 
+_pdbx_validate_close_contact.PDB_model_num    1 
+_pdbx_validate_close_contact.auth_atom_id_1   N 
+_pdbx_validate_close_contact.auth_asym_id_1   A 
+_pdbx_validate_close_contact.auth_comp_id_1   DAL 
+_pdbx_validate_close_contact.auth_seq_id_1    1 
+_pdbx_validate_close_contact.PDB_ins_code_1   ? 
+_pdbx_validate_close_contact.label_alt_id_1   ? 
+_pdbx_validate_close_contact.auth_atom_id_2   O 
+_pdbx_validate_close_contact.auth_asym_id_2   A 
+_pdbx_validate_close_contact.auth_comp_id_2   DAM 
+_pdbx_validate_close_contact.auth_seq_id_2    7 
+_pdbx_validate_close_contact.PDB_ins_code_2   ? 
+_pdbx_validate_close_contact.label_alt_id_2   ? 
+_pdbx_validate_close_contact.dist             2.19 
+# 
+_pdbx_validate_peptide_omega.id               1 
+_pdbx_validate_peptide_omega.PDB_model_num    1 
+_pdbx_validate_peptide_omega.auth_comp_id_1   1ZN 
+_pdbx_validate_peptide_omega.auth_asym_id_1   A 
+_pdbx_validate_peptide_omega.auth_seq_id_1    5 
+_pdbx_validate_peptide_omega.PDB_ins_code_1   ? 
+_pdbx_validate_peptide_omega.label_alt_id_1   ? 
+_pdbx_validate_peptide_omega.auth_comp_id_2   FGA 
+_pdbx_validate_peptide_omega.auth_asym_id_2   A 
+_pdbx_validate_peptide_omega.auth_seq_id_2    6 
+_pdbx_validate_peptide_omega.PDB_ins_code_2   ? 
+_pdbx_validate_peptide_omega.label_alt_id_2   ? 
+_pdbx_validate_peptide_omega.omega            140.35 
+# 
+_pdbx_validate_main_chain_plane.id                       1 
+_pdbx_validate_main_chain_plane.PDB_model_num            1 
+_pdbx_validate_main_chain_plane.auth_comp_id             1ZN 
+_pdbx_validate_main_chain_plane.auth_asym_id             A 
+_pdbx_validate_main_chain_plane.auth_seq_id              5 
+_pdbx_validate_main_chain_plane.PDB_ins_code             ? 
+_pdbx_validate_main_chain_plane.label_alt_id             ? 
+_pdbx_validate_main_chain_plane.improper_torsion_angle   -26.31 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_ordinal 
+1ZN C1   C N N 1   
+1ZN O1   O N N 2   
+1ZN C2   C N S 3   
+1ZN C3   C N N 4   
+1ZN C4   C Y N 5   
+1ZN C5   C Y N 6   
+1ZN C6   C Y N 7   
+1ZN C7   C Y N 8   
+1ZN C8   C Y N 9   
+1ZN C9   C Y N 10  
+1ZN C10  C N S 11  
+1ZN C11  C N N 12  
+1ZN C12  C N N 13  
+1ZN C13  C N N 14  
+1ZN C14  C N N 15  
+1ZN C15  C N N 16  
+1ZN C16  C N N 17  
+1ZN CA   C N S 18  
+1ZN N    N N N 19  
+1ZN C18  C N S 20  
+1ZN C19  C N N 21  
+1ZN C    C N N 22  
+1ZN OXT  O N N 23  
+1ZN O    O N N 24  
+1ZN H1   H N N 25  
+1ZN H29  H N N 26  
+1ZN H3   H N N 27  
+1ZN H4   H N N 28  
+1ZN H5   H N N 29  
+1ZN H6   H N N 30  
+1ZN H7   H N N 31  
+1ZN H8   H N N 32  
+1ZN H9   H N N 33  
+1ZN H10  H N N 34  
+1ZN H11  H N N 35  
+1ZN H12  H N N 36  
+1ZN H13  H N N 37  
+1ZN H14  H N N 38  
+1ZN H15  H N N 39  
+1ZN H16  H N N 40  
+1ZN H17  H N N 41  
+1ZN H18  H N N 42  
+1ZN H19  H N N 43  
+1ZN H20  H N N 44  
+1ZN H21  H N N 45  
+1ZN HA   H N N 46  
+1ZN H    H N N 47  
+1ZN H2   H N N 48  
+1ZN H25  H N N 49  
+1ZN H26  H N N 50  
+1ZN H27  H N N 51  
+1ZN H28  H N N 52  
+1ZN HXT  H N N 53  
+ACB C    C N N 54  
+ACB O    O N N 55  
+ACB OXT  O N N 56  
+ACB CA   C N R 57  
+ACB N    N N N 58  
+ACB CB   C N S 59  
+ACB CG   C N N 60  
+ACB OD1  O N N 61  
+ACB C4   C N N 62  
+ACB OD2  O N N 63  
+ACB HXT  H N N 64  
+ACB HA   H N N 65  
+ACB H    H N N 66  
+ACB H2   H N N 67  
+ACB HB3  H N N 68  
+ACB H41  H N N 69  
+ACB H42  H N N 70  
+ACB H43  H N N 71  
+ACB HD2  H N N 72  
+ARG N    N N N 73  
+ARG CA   C N S 74  
+ARG C    C N N 75  
+ARG O    O N N 76  
+ARG CB   C N N 77  
+ARG CG   C N N 78  
+ARG CD   C N N 79  
+ARG NE   N N N 80  
+ARG CZ   C N N 81  
+ARG NH1  N N N 82  
+ARG NH2  N N N 83  
+ARG OXT  O N N 84  
+ARG H    H N N 85  
+ARG H2   H N N 86  
+ARG HA   H N N 87  
+ARG HB2  H N N 88  
+ARG HB3  H N N 89  
+ARG HG2  H N N 90  
+ARG HG3  H N N 91  
+ARG HD2  H N N 92  
+ARG HD3  H N N 93  
+ARG HE   H N N 94  
+ARG HH11 H N N 95  
+ARG HH12 H N N 96  
+ARG HH21 H N N 97  
+ARG HH22 H N N 98  
+ARG HXT  H N N 99  
+DAL N    N N N 100 
+DAL CA   C N R 101 
+DAL CB   C N N 102 
+DAL C    C N N 103 
+DAL O    O N N 104 
+DAL OXT  O N N 105 
+DAL H    H N N 106 
+DAL H2   H N N 107 
+DAL HA   H N N 108 
+DAL HB1  H N N 109 
+DAL HB2  H N N 110 
+DAL HB3  H N N 111 
+DAL HXT  H N N 112 
+DAM N    N N N 113 
+DAM CM   C N N 114 
+DAM CA   C N N 115 
+DAM CB   C N N 116 
+DAM C    C N N 117 
+DAM O    O N N 118 
+DAM OXT  O N N 119 
+DAM H    H N N 120 
+DAM HM1  H N N 121 
+DAM HM2  H N N 122 
+DAM HM3  H N N 123 
+DAM HB1  H N N 124 
+DAM HB2  H N N 125 
+DAM HXT  H N N 126 
+FGA N    N N N 127 
+FGA CA   C N R 128 
+FGA C    C N N 129 
+FGA O    O N N 130 
+FGA CB   C N N 131 
+FGA CG   C N N 132 
+FGA CD   C N N 133 
+FGA OE1  O N N 134 
+FGA OE2  O N N 135 
+FGA OXT  O N N 136 
+FGA H    H N N 137 
+FGA H2   H N N 138 
+FGA HA   H N N 139 
+FGA HB2  H N N 140 
+FGA HB3  H N N 141 
+FGA HG2  H N N 142 
+FGA HG3  H N N 143 
+FGA HE2  H N N 144 
+FGA HXT  H N N 145 
+LEU N    N N N 146 
+LEU CA   C N S 147 
+LEU C    C N N 148 
+LEU O    O N N 149 
+LEU CB   C N N 150 
+LEU CG   C N N 151 
+LEU CD1  C N N 152 
+LEU CD2  C N N 153 
+LEU OXT  O N N 154 
+LEU H    H N N 155 
+LEU H2   H N N 156 
+LEU HA   H N N 157 
+LEU HB2  H N N 158 
+LEU HB3  H N N 159 
+LEU HG   H N N 160 
+LEU HD11 H N N 161 
+LEU HD12 H N N 162 
+LEU HD13 H N N 163 
+LEU HD21 H N N 164 
+LEU HD22 H N N 165 
+LEU HD23 H N N 166 
+LEU HXT  H N N 167 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+1ZN C1  O1   sing N N 1   
+1ZN O1  C2   sing N N 2   
+1ZN C2  C3   sing N N 3   
+1ZN C3  C4   sing N N 4   
+1ZN C4  C5   doub Y N 5   
+1ZN C5  C6   sing Y N 6   
+1ZN C6  C7   doub Y N 7   
+1ZN C7  C8   sing Y N 8   
+1ZN C8  C9   doub Y N 9   
+1ZN C4  C9   sing Y N 10  
+1ZN C2  C10  sing N N 11  
+1ZN C10 C11  sing N N 12  
+1ZN C10 C12  sing N N 13  
+1ZN C12 C13  doub N N 14  
+1ZN C13 C14  sing N N 15  
+1ZN C13 C15  sing N N 16  
+1ZN C15 C16  doub N N 17  
+1ZN C16 CA   sing N N 18  
+1ZN CA  N    sing N N 19  
+1ZN CA  C18  sing N N 20  
+1ZN C18 C19  sing N N 21  
+1ZN C18 C    sing N N 22  
+1ZN C   OXT  sing N N 23  
+1ZN C   O    doub N N 24  
+1ZN C1  H1   sing N N 25  
+1ZN C1  H29  sing N N 26  
+1ZN C1  H3   sing N N 27  
+1ZN C2  H4   sing N N 28  
+1ZN C3  H5   sing N E 29  
+1ZN C3  H6   sing N N 30  
+1ZN C5  H7   sing N N 31  
+1ZN C6  H8   sing N N 32  
+1ZN C7  H9   sing N N 33  
+1ZN C8  H10  sing N N 34  
+1ZN C9  H11  sing N N 35  
+1ZN C10 H12  sing N E 36  
+1ZN C11 H13  sing N N 37  
+1ZN C11 H14  sing N N 38  
+1ZN C11 H15  sing N N 39  
+1ZN C12 H16  sing N N 40  
+1ZN C14 H17  sing N N 41  
+1ZN C14 H18  sing N N 42  
+1ZN C14 H19  sing N N 43  
+1ZN C15 H20  sing N N 44  
+1ZN C16 H21  sing N N 45  
+1ZN CA  HA   sing N N 46  
+1ZN N   H    sing N N 47  
+1ZN N   H2   sing N N 48  
+1ZN C18 H25  sing N N 49  
+1ZN C19 H26  sing N N 50  
+1ZN C19 H27  sing N N 51  
+1ZN C19 H28  sing N N 52  
+1ZN OXT HXT  sing N N 53  
+ACB C   O    doub N N 54  
+ACB C   OXT  sing N N 55  
+ACB C   CA   sing N N 56  
+ACB OXT HXT  sing N N 57  
+ACB CA  N    sing N N 58  
+ACB CA  CB   sing N N 59  
+ACB CA  HA   sing N N 60  
+ACB N   H    sing N N 61  
+ACB N   H2   sing N N 62  
+ACB CB  CG   sing N N 63  
+ACB CB  C4   sing N N 64  
+ACB CB  HB3  sing N N 65  
+ACB CG  OD1  doub N N 66  
+ACB CG  OD2  sing N N 67  
+ACB C4  H41  sing N N 68  
+ACB C4  H42  sing N N 69  
+ACB C4  H43  sing N N 70  
+ACB OD2 HD2  sing N N 71  
+ARG N   CA   sing N N 72  
+ARG N   H    sing N N 73  
+ARG N   H2   sing N N 74  
+ARG CA  C    sing N N 75  
+ARG CA  CB   sing N N 76  
+ARG CA  HA   sing N N 77  
+ARG C   O    doub N N 78  
+ARG C   OXT  sing N N 79  
+ARG CB  CG   sing N N 80  
+ARG CB  HB2  sing N N 81  
+ARG CB  HB3  sing N N 82  
+ARG CG  CD   sing N N 83  
+ARG CG  HG2  sing N N 84  
+ARG CG  HG3  sing N N 85  
+ARG CD  NE   sing N N 86  
+ARG CD  HD2  sing N N 87  
+ARG CD  HD3  sing N N 88  
+ARG NE  CZ   sing N N 89  
+ARG NE  HE   sing N N 90  
+ARG CZ  NH1  sing N N 91  
+ARG CZ  NH2  doub N N 92  
+ARG NH1 HH11 sing N N 93  
+ARG NH1 HH12 sing N N 94  
+ARG NH2 HH21 sing N N 95  
+ARG NH2 HH22 sing N N 96  
+ARG OXT HXT  sing N N 97  
+DAL N   CA   sing N N 98  
+DAL N   H    sing N N 99  
+DAL N   H2   sing N N 100 
+DAL CA  CB   sing N N 101 
+DAL CA  C    sing N N 102 
+DAL CA  HA   sing N N 103 
+DAL CB  HB1  sing N N 104 
+DAL CB  HB2  sing N N 105 
+DAL CB  HB3  sing N N 106 
+DAL C   O    doub N N 107 
+DAL C   OXT  sing N N 108 
+DAL OXT HXT  sing N N 109 
+DAM N   CM   sing N N 110 
+DAM N   CA   sing N N 111 
+DAM N   H    sing N N 112 
+DAM CM  HM1  sing N N 113 
+DAM CM  HM2  sing N N 114 
+DAM CM  HM3  sing N N 115 
+DAM CA  CB   doub N N 116 
+DAM CA  C    sing N N 117 
+DAM CB  HB1  sing N N 118 
+DAM CB  HB2  sing N N 119 
+DAM C   O    doub N N 120 
+DAM C   OXT  sing N N 121 
+DAM OXT HXT  sing N N 122 
+FGA N   CA   sing N N 123 
+FGA N   H    sing N N 124 
+FGA N   H2   sing N N 125 
+FGA CA  C    sing N N 126 
+FGA CA  CB   sing N N 127 
+FGA CA  HA   sing N N 128 
+FGA C   O    doub N N 129 
+FGA C   OXT  sing N N 130 
+FGA CB  CG   sing N N 131 
+FGA CB  HB2  sing N N 132 
+FGA CB  HB3  sing N N 133 
+FGA CG  CD   sing N N 134 
+FGA CG  HG2  sing N N 135 
+FGA CG  HG3  sing N N 136 
+FGA CD  OE1  doub N N 137 
+FGA CD  OE2  sing N N 138 
+FGA OE2 HE2  sing N N 139 
+FGA OXT HXT  sing N N 140 
+LEU N   CA   sing N N 141 
+LEU N   H    sing N N 142 
+LEU N   H2   sing N N 143 
+LEU CA  C    sing N N 144 
+LEU CA  CB   sing N N 145 
+LEU CA  HA   sing N N 146 
+LEU C   O    doub N N 147 
+LEU C   OXT  sing N N 148 
+LEU CB  CG   sing N N 149 
+LEU CB  HB2  sing N N 150 
+LEU CB  HB3  sing N N 151 
+LEU CG  CD1  sing N N 152 
+LEU CG  CD2  sing N N 153 
+LEU CG  HG   sing N N 154 
+LEU CD1 HD11 sing N N 155 
+LEU CD1 HD12 sing N N 156 
+LEU CD1 HD13 sing N N 157 
+LEU CD2 HD21 sing N N 158 
+LEU CD2 HD22 sing N N 159 
+LEU CD2 HD23 sing N N 160 
+LEU OXT HXT  sing N N 161 
+# 
