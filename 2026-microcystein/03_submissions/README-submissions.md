@@ -172,6 +172,6 @@ Edits are allowed up to the deadline. After it, the branch is frozen.
 
 ## Questions
 
-Ask in the challenge channel rather than by email — if you are confused about the format, three other teams are too.
+Ask in the challenge whattsapp group rather than by email.
 
-<!-- TODO: channel link -->
+
