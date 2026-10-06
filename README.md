@@ -79,6 +79,7 @@ DLAI-binder-challenge/
 ├── 01_starter/                   # shared pipeline scaffolding and notebooks
 │   ├── env/                   # environment specs
 │   ├── pipelines/             # reference design + scoring pipelines
+|   ├── helper codes/          # useful code for your design campaign
 │   └── scoring/               # metric extraction, filtering helpers
 ├── 02_docs/
 │   ├── submission-format.md
