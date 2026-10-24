@@ -1,0 +1,47 @@
+[workspace]
+authors = ["Noa Ette <noaemien@gmail.com>"]
+channels = ["conda-forge", "nvidia"]
+name = "pixi"
+platforms = [
+  { platform = "linux-64", cuda = "12.0" },
+]
+version = "0.1.0"
+preview = ["pixi-build"]
+
+[tasks]
+
+[dependencies]
+pip = ">=26.2.1,<27"
+pandas = ">=3.0.6,<4"
+matplotlib = ">=3.11.2,<4"
+numpy = "<2.0.0"
+biopython = ">=1.88,<2"
+scipy = ">=1.17.1,<2"
+pdbfixer = ">=1.12,<2"
+seaborn = ">=0.13.2,<0.14"
+libgfortran5 = ">=16.2.0,<17"
+tqdm = ">=4.70.1,<5"
+jupyter = ">=1.1.1,<2"
+ffmpeg = ">=8.0.1,<9"
+fsspec = ">=2026.9.0,<2027"
+py3dmol = ">=2.5.4,<3"
+chex = ">=0.1.90,<0.2"
+dm-haiku = ">=0.0.17,<0.0.18"
+flax = "<0.10.0"
+dm-tree = ">=0.1.9,<0.2"
+joblib = ">=1.6.0,<2"
+ml-collections = ">=1.0.0,<2"
+immutabledict = ">=4.3.1,<5"
+optax = ">=0.2.8,<0.3"
+jax = ">=0.4,<=0.6.0"
+jaxlib = { version = ">=0.4,<=0.6.0", build = "*cuda*" }
+cuda-nvcc = ">=12.9.86,<13"
+cudnn = ">=9.10.2.21,<10"
+
+[pypi-dependencies]
+colabdesign = { git = "https://github.com/sokrypton/ColabDesign.git", rev = "8fd167defd1b0f98e29f00584ff4f3987e6935dc" }
+pyrosetta = "*"
+
+[pypi-options]
+find-links = [{ url = "https://west.rosettacommons.org/pyrosetta/quarterly/release.cxx11thread.serialization" }]
+no-build-isolation = ["colabdesign"]
