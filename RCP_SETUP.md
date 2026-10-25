@@ -95,6 +95,16 @@ kubectl get nodes
 You should see the RCP cluster nodes listed.
 
 ## Launching jobs
+### UID / GID
+To have access to your files in the jumphost you need to provide your UID and GID
+These can me found by connecting to jumphost and writing the command `id -u` to get UID and `id -g` to get GID.
+These values need to be passed to the commands below.
+
+You then need to add these values to your env using:
+ ```bash
+export NB_UID=... #uid value
+export NB_GID=... #gid value
+ ```
 
 ### Interactive
 
@@ -103,15 +113,13 @@ Jobs can be started interactively with the following command:
 runai submit --name JOB_NAME \
   -i registry.rcp.epfl.ch/dlai-bindcraft/bindcraft:latest \
   -g 1 --existing-pvc claimname=make-dlai-scratch,path=/scratch \
+  --run-as-user --run-as-uid "${NB_UID}" --run-as-gid "${NB_GID}" \
   --interactive --attach
 ```
 
 Once inside the container you can activate the conda environment and start a bindcraft job:
 ```bash
-conda activate BindCraft
-rm -rf params
-ln -s /scratch/data/params/ .
-python -u ./bindcraft.py \
+pixi run python ./bindcraft.py \
   --settings '/scratch/{YOUR_GASPARD}/path/to/target.json' \
   --filters './settings_filters/default_filters.json' \
   --advanced './settings_advanced/default_4stage_multimer.json'
@@ -124,10 +132,9 @@ Make sure to replace the settings path with the path to your `target.json` file.
 If you want jobs to run in the background you can run with:
 ```bash
 runai submit --name JOB_NAME -i registry.rcp.epfl.ch/dlai-bindcraft/bindcraft:latest \
-  -g 1 --existing-pvc claimname=make-dlai-scratch,path=/scratch -- \
-  conda activate BindCraft && \
-  ln -s /scratch/data/params/ . && \
-  python -u ./bindcraft.py \
+  -g 1 --existing-pvc claimname=make-dlai-scratch,path=/scratch \
+  --run-as-user --run-as-uid "${NB_UID}" --run-as-gid "${NB_GID}" -- \
+  pixi run python ./bindcraft.py \
     --settings '/scratch/{YOUR_GASPARD}/path/to/target.json' \
     --filters './settings_filters/default_filters.json' \
     --advanced './settings_advanced/default_4stage_multimer.json'

@@ -1,5 +1,5 @@
 FROM --platform=amd64 nvidia/cuda:12.9.1-cudnn-runtime-ubuntu24.04
-LABEL maintainer="Vincent Jung <vincent.jung@epfl.ch>"
+LABEL maintainer="Noa Ette <noa.ette@epfl.ch>"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -62,6 +62,7 @@ RUN echo "umask 007" >> /docker/.zshrc && \
     echo 'export PATH="/opt/pixi/bin:${PATH}"' >> /docker/.zshrc
 
 RUN git clone https://github.com/martinpacesa/BindCraft /bindcraft
+RUN chmod +x /bindcraft/functions/dssp /bindcraft/functions/DAlphaBall.gcc
 WORKDIR /bindcraft
 COPY pixi.toml /bindcraft
 
