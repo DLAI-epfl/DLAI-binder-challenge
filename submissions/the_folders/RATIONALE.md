@@ -22,14 +22,29 @@ We did not prioritize the variable amino acid positions (2 and 4), as targeting 
 This strategy aims to achieve favorable binding to MC-LR while potentially allowing broader recognition of microcystin congeners. However, cross-reactivity with other microcystin congeners (such as MC-RR and MC-YR) and related toxins (ex: nodularins which have an Adda group) remains possible, and binding specificity will require experimental validation.
 
 ## Approach
-<!-- Chosen pipeline and why. Include what we tried that did NOT work.
+<!-- Chosen pipeline and why:
+     Include what we tried that did NOT work.
+
+     Backbones are generated with RFdiffusion3, an all-atom method that models the ligand explicitly. MC-LR is placed in the conformation seen in the PP1-bound structure (PDB 1FJM), because the toxin is flexible and its bound shape differs from the solution one. Diffusion is conditioned to bury the Adda tail and to position at least one polar contact near the D-Glu carboxylate, following our decision to target the conserved face. 
+    pseudocycle scaffolds docked around MC-LR (An et al. 2024), run at smaller scale / not pursued because it needs scaffold generation and a resampling round we cannot test within one design round.
+    Sequences are designed with LigandMPNN with cysteine excluded globally, which prevents any Michael addition to Mdha (position 7 in the cyclic structure of Microcystin) and any disulfide, 
+    and with biases toward aromatic/aliphatic residues around Adda and Arg/Tyr/Ser near the carboxylates, mirroring the PP1 contacts. 
+    Every design is co-folded with and without the ligand using Boltz; designs passing the first filters are re-predicted with AlphaFold 3, so two independent predictors must agree. 
+    Survivors undergo one round of sequence redesign or partial diffusion and are revalidated with the same filters.
      LOGBOOK (to be filled in at each session):
      - 2026-10-__ : -->
 
 ## Filtering
 <!-- THRESHOLDS WRITTEN BEFORE SEEING THE RESULTS — this is the graded point.
      Metric | Threshold | Date set | Reason for the threshold
-     -------|-----------|----------|------------------------- -->
+     Cysteine count|0|-----|Mdha is electrophilic; no disulfides allowed
+     pLDDT / Model Confidence|-----|-----|-----
+     ipTM / pTM|-----|-----|-----
+     Adda burial|-----|-----|-----
+     D-Glu / Masp carboxylate contacts|-----|-----|-----
+     Length|-----|-----|-----
+
+
 
 ## The three
 <!-- The three designs, ranked 1-2-3, with a STRUCTURAL argument for each.
