@@ -155,7 +155,9 @@ runai submit --name JOB_NAME -i registry.rcp.epfl.ch/dlai-bindcraft/bindcraft:la
     --advanced './settings_advanced/default_4stage_multimer.json'
 ```
 
-Make sure to replace the settings path with the path to your `target.json` file. 
+Make sure to replace the settings path with the path to your `target.json` file.
+
+Follow the progress with `runai logs -f JOB_NAME`.
 
 ### Using jumphost
 
@@ -181,7 +183,21 @@ This is your personal folder. To list what is in it:
 ls -la
 ```
 
-More information will follow regarding the folder architecture, especially for Binder Challengers!
+### Folder architecture
+
+Where you store your files matters, because a job can only see the storage that is mounted into it.
+
+| Location | How you reach it | Use it for |
+|----------|----------------|-------------|
+| Home | `/home/{YOUR_GASPARD}` on the jumphost | Personal scripts, notes and small files. Jobs in this guide do not see it. |
+| Scratch | `/scratch` inside a job | Everything a job reads or writes: target files, settings and results. |
+
+Recommended layout:
+
+- Keep each run input in its own folder: `/scratch/{YOUR_GASPARD}/<project_name>/`. Put the `target.json`, the target PDB and any other input there.
+- If you work as part of a project group (`groupNN`), you can use your group's folder for files the whole group needs, such as targets and shared results.
+- BindCraft writes everything it generates into the folder given by `design_path` specified in the `target.json`. DON'T LOSE YOUR RESULTS!
+- Keep inputs and results apart.
 
 ### Using jumphost with VS Code
 
