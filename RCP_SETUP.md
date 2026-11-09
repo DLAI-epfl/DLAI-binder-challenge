@@ -17,7 +17,7 @@ The RCP Wiki gives you a [Quick start guide](https://wiki.rcp.epfl.ch/home/CaaS/
 > The guide code here is for use in Linux. If you are using Windows, change the \ to `, or just write in a single line.
 
 > [!NOTE]
-> <mark>Everytime you use the runai CLI, it usually produces and error saying that it is deprecated. You can safely ignore this.<mark>
+> Everytime you use the runai CLI, it usually produces and error saying that it is deprecated. You can safely ignore this.
 
 Content overview:
 - [Setup Guide](#setup-guide)
