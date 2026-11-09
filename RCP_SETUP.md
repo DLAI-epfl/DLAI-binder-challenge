@@ -82,6 +82,8 @@ sudo chown root: /usr/local/bin/runai
 runai login
 ```
 
+The CLI prints a link. Open it in your browser, select CONTINUE WITH SSO, then copy the verification code shown on the page and paste it back into the terminal at `Enter verification code:`. You should see `Logged in successfully`.
+
 #### Verify access
 
 ```bash
