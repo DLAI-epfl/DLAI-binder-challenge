@@ -114,6 +114,12 @@ export NB_UID=... #uid value
 export NB_GID=... #gid value
  ```
 
+For Windows users:
+ ```bash
+$env:NB_UID="..." #uid value
+$env:NB_GID="..." #gid value
+ ```
+
 ### Interactive
 
 Jobs can be started interactively with the following command:
@@ -124,6 +130,7 @@ runai submit --name JOB_NAME \
   --run-as-user --run-as-uid "${NB_UID}" --run-as-gid "${NB_GID}" \
   --interactive --attach
 ```
+An interactive job is stopped when you close the terminal and after your project's interactive time limit (12h). For long runs use the background command below.
 
 Once inside the container you can activate the conda environment and start a bindcraft job:
 ```bash
