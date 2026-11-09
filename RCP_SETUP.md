@@ -11,6 +11,9 @@ The RCP Wiki gives you a [Quick start guide](https://wiki.rcp.epfl.ch/home/CaaS/
 > Using the cluster creates costs. Please be mindful of the resources you use. **Do not forget to stop your jobs when not used!**
 
 > [!IMPORTANT]
+> Access to the DLAI MAKE infrastructure is managed by Tuna Karasu. Each project has a group number (for example `rcp-caas-make-dlai-gNN`). Make sure you have been added to the appropriate group before accessing its resources.
+
+> [!IMPORTANT]
 > The guide code here is for use in Linux. If you are using Windows, change the \ to `, or just write in a single line.
 
 Content overview:
