@@ -4,11 +4,11 @@ set -e
 # BindCraft: share one environment, lockfile and AF2 weights between identical containers.
 # The container runs as the submitting uid (Run:ai --run-as-uid): that uid has no passwd entry,
 # so HOME may be unwritable and zsh finds no startup file.
-BINDCRAFT_SHARED=${BINDCRAFT_SHARED:-/scratch/.envs/bindcraft}
+BINDCRAFT_SHARED=${BINDCRAFT_SHARED:-/shared/.envs/bindcraft}
 mkdir -p ${BINDCRAFT_SHARED}/.pixi
 ln -sfn ${BINDCRAFT_SHARED}/.pixi /bindcraft/.pixi
 ln -sfn ${BINDCRAFT_SHARED}/pixi.lock /bindcraft/pixi.lock
-ln -sfn ${BINDCRAFT_PARAMS:-/scratch/data/params} /bindcraft/params
+ln -sfn ${BINDCRAFT_PARAMS:-/shared/data/params} /bindcraft/params
 
 if [[ -z ${HOME:-} || ! -w ${HOME} ]]; then
   export HOME=/tmp/$(id -u)
