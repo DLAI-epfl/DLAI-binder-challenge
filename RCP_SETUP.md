@@ -103,6 +103,8 @@ kubectl get nodes
 You should see the RCP cluster nodes listed.
 
 ## Launching jobs
+The tutorial here follows the process for BindCraft. If you want to run other tools, you can find the dedicated tutorials in this repo.
+
 ### Interactive
 
 Jobs can be started interactively with the following command:
