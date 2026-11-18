@@ -213,7 +213,9 @@ Save it to the suggested SSH config file.
 Open a new VS Code window and click Connect to....
 Choose Connect to Host... and select jumphost.rcp.epfl.ch from the list. Do not choose + Add New SSH Host... again.
 Enter your GASPAR password when asked.
-Choose Open Folder to browse your files on the cluster. You can drag and drop files in and out of the file panel. It is easy to visualise your .pdb files using ProteinViewer extension.
+Choose Open Folder to browse your files on the cluster. 
+Go to the `/mnt/make-dlai/rcp-caas-make-dlai-{GROUP_NUMBER}/scratch-{GROUP_NUMBER}/` path.
+You can drag and drop files in and out of the file panel. It is easy to visualise your .pdb files using ProteinViewer extension.
 
 ### Copy files without VS Code (optional)
 
@@ -222,13 +224,13 @@ Run these from your own computer, not from inside the jumphost.
 Upload a file:
 
 ```bash
-scp my_file.pdb {YOUR_GASPARD}@jumphost.rcp.epfl.ch:/home/<gaspar-username>/
+scp my_file.pdb {YOUR_GASPARD}@jumphost.rcp.epfl.ch:/mnt/make-dlai/rcp-caas-make-dlai-{GROUP_NUMBER}/scratch-{GROUP_NUMBER}/<gaspar-username>/
 ```
 
 Download a file:
 
 ```bash
-scp {YOUR_GASPARD}@jumphost.rcp.epfl.ch:/home/<gaspar-username>/results.csv .
+scp {YOUR_GASPARD}@jumphost.rcp.epfl.ch:/mnt/make-dlai/rcp-caas-make-dlai-{GROUP_NUMBER}/scratch-{GROUP_NUMBER}/<gaspar-username>/results.csv .
 ```
 
 The . at the end means "into the current folder on my computer".
