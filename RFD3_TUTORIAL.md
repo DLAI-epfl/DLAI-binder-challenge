@@ -1,6 +1,8 @@
 This tutorial is for RFD3.
 
-Replace `<gaspar>` with your EPFL username, `gXX` with your group number, and `<your_project>` with your chosen project directory name throughout.
+Replace `<gaspar>` with your EPFL username, `gXX` with your group number, `FOLDER_NAME` with the name of the folder that you want to have the outputs in and `<your_project>` with your chosen project directory name throughout.
+
+A pipeline with rfd3 can be rfd3->proteinmpnn->alphafold validation. After rfd3 step you can continue with ligandmpnn.
 
 ## Generate Scaffolds with RFD3
 
@@ -36,21 +38,14 @@ ls /scratch/FOLDER_NAME
 
 exit
 ```
-
+> Modify the diffusion_batch_size as you wish, 1 is given for the test run 8 is the default.
 > The input file `pdl1_test.json` defines the PD-L1 binder design task.
 > To try an unconditional design instead, point `inputs=` to your own JSON
 > (e.g. `{"uncond_monomer": {"dialect": 2, "length": "80-100"}}`).
 > You can find excellent tutorials for RFD3 on the internet.
 
----
-
-> **Important — Preparing inputs for sequence optimization**
 > RFD3 outputs `.cif.gz` files, but LigandMPNN and CARBonAra expect `.pdb` files.
-> Before running Steps 2 or 3 you must:
-> 1. Unzip the `.cif.gz` files from Step 1.
-> 2. Convert the `.cif` files to `.pdb` (e.g. using `gemmi`).
-> 3. Upload the `.pdb` files to the appropriate `input/` directories on scratch
->    (e.g. `/mnt/scratch/<your_project>/ligandmpnn/input/` and `/mnt/scratch/<your_project>/carbonara/input/`).
+> More details on how to do the conversion is on the LigandMPNN_tutorial. 
 
 Adapted from: [Protein Design Week – RCP Example](https://github.com/ghassanabboud/protein-design-week/blob/main/RCP/EXAMPLE.md)
 
