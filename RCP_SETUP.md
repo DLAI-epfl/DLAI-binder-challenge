@@ -135,7 +135,7 @@ If you want jobs to run in the background you can run with:
 ```bash
 runai submit --name JOB_NAME -i registry.rcp.epfl.ch/dlai-bindcraft/bindcraft:latest \
   -g 1 --existing-pvc claimname=make-dlai-scratch-g{GROUP_NUMBER},path=/scratch \
-  --existing-pvc claimname=make-dlai-shared-ro,path=/shared \
+  --existing-pvc claimname=make-dlai-shared-ro,path=/shared --command -- \
   pixi run python ./bindcraft.py \
     --settings '/scratch/path/to/target.json' \
     --filters './settings_filters/default_filters.json' \
