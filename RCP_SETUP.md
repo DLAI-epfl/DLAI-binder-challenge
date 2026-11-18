@@ -43,6 +43,7 @@ curl -LO "https://dl.k8s.io/release/v1.30.11/bin/darwin/arm64/kubectl"
 
 # Install
 chmod +x ./kubectl
+sudo mkdir -p /usr/local/bin
 sudo mv ./kubectl /usr/local/bin/kubectl
 sudo chown root: /usr/local/bin/kubectl
 ``` 
