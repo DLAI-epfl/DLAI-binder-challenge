@@ -54,6 +54,7 @@ See https://kubernetes.io/docs/tasks/tools/install-kubectl/ for other platforms.
 Download the kube config file to `~/.kube/config`:
 
 ```bash
+mkdir -p ~/.kube
 curl https://wiki.rcp.epfl.ch/public/files/kube-config.yaml -o ~/.kube/config && chmod 600 ~/.kube/config
 ```
 
