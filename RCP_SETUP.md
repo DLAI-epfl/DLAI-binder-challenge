@@ -117,6 +117,10 @@ runai submit --name JOB_NAME \
   --existing-pvc claimname=make-dlai-shared-ro,path=/shared \
   --interactive --attach
 ```
+
+> [!NOTE]
+> You can find the exact pvc name for you group by using `kubectl get pvc -n runai-make-dlai-{GASPARD_USERNAME}`
+
 An interactive job is stopped when you close the terminal and after your project's interactive time limit (12h). For long runs use the background command below.
 
 Once inside the container you can activate the conda environment and start a bindcraft job:
