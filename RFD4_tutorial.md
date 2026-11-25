@@ -34,6 +34,6 @@ exit
 > The input file `pdl1.yaml` defines the PD-L1 binder design task.
 > To try an unconditional design instead, point `inputs=` to your own YAML
 
->RFD4 will output cif files, you can refold and check using af3 server.
+>RFD4 will output cif files, you can refold and check using af3 server. The RFD4 refolding is not setup in the cluster.
 
 > Check the wiki for more details https://github.com/RosettaCommons/RFD4-Proteina.
